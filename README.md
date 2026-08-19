@@ -39,14 +39,6 @@ Median Outcome:          ₹964,602  (-3.54%)
 Probability of Loss:     65.6%
 ```
 
-**Distribution of simulated outcomes:**
-
-![Final value distribution](docs/final_distribution.png)
-
-**How uncertainty grows over the horizon:**
-
-![Percentile bands](docs/percentile_bands.png)
-
 ## Why GPU acceleration
 
 At 50,000 simulations × 100 time steps × 8 assets, the simulation is fully
@@ -80,10 +72,6 @@ pip install cupy-cuda13x
 pip install --upgrade yfinance
 python monte_carlo_sim.py
 ```
-
-Edit the `tickers_raw`, `mc_sims`, `time_frame`, and `initial_investment`
-variables in `main()` to point at your own portfolio and simulation
-parameters.
 
 ## Method notes
 

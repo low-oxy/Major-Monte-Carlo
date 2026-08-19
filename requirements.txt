@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+yfinance
+# Requires an NVIDIA GPU + matching CUDA driver.
+# Uncomment the line matching your CUDA version, or omit entirely to run on CPU (NumPy).
+# cupy-cuda12x
+# cupy-cuda13x
